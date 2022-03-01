@@ -33,10 +33,12 @@ main .container {
     color: #444851;
 }
 
+/* container dei bottoni   */
 .buttons {
     border-bottom: 1px solid lightgray;
 }
 
+/* bottoni  */
 .buttons button {
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -55,7 +57,7 @@ button.inactive {
     border: 1px solid lightgrey;
 }
 
-
+/* stilizzazione delle liste  */
 .root-list > li {
     list-style: none;
     font-size: 1.2rem;
@@ -64,13 +66,14 @@ button.inactive {
 }
 
 .child-list > li {
+    list-style: none;
     font-size: 1rem;
     font-weight: 300;
-    list-style: none;
-    margin-left: 0;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
 }
 
+
+/* stilizzazione dei simboli checked/unchecked  */
 .checked, .unchecked {
     display: inline-block;
     border-radius: 50%;
@@ -92,6 +95,8 @@ button.inactive {
     color: red;
 }
 
+
+/* Stilizzazione delle etichette a lato list item  */
 .pill {
     display: inline-block;
     border-radius: 0.5rem;
