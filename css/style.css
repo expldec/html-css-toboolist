@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    height: 1.5em;
+    padding-left: 1em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#header-logo, #header-txt {
+    vertical-align: middle;
+}
+
+main {
+    background-color: #f6f8f9;
+}
+
+main .container {
+    width: 70%;
+    margin: 0 3em;
+}
