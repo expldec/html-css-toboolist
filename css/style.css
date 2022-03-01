@@ -18,9 +18,111 @@ header {
 
 main {
     background-color: #f6f8f9;
+    padding: 3rem;
+}
+
+.sidepadding-3em {
+    padding: 1em 3em;
 }
 
 main .container {
     width: 70%;
-    margin: 0 3em;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: white;
+    color: #444851;
+}
+
+.buttons {
+    border-bottom: 1px solid lightgray;
+}
+
+.buttons button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+}
+
+button.active {
+    background-color: #47adf1;
+    color: white;
+    border: 0;
+}
+
+button.inactive {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+
+.root-list > li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.child-list > li {
+    font-size: 1rem;
+    font-weight: 300;
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+
+.checked, .unchecked {
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.checked {
+    border: 2px solid green;
+    color: green;
+}
+
+.unchecked {
+    border: 2px solid red;
+    color: red;
+}
+
+.pill {
+    display: inline-block;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    margin: 0 0.3rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.6em;
+    color: white;
+    vertical-align: middle;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.q1goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
 }
