@@ -90,11 +90,18 @@ button.inactive {
     color: green;
 }
 
+.checked::before {
+    content: '\2713';
+}
+
 .unchecked {
     border: 2px solid red;
     color: red;
 }
 
+.unchecked::before {
+    content: '\2717';
+}
 
 /* Stilizzazione delle etichette a lato list item  */
 .pill {
